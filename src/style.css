@@ -1,0 +1,42 @@
+.paper{
+    height: 400px;
+    width: 500px;
+    margin: auto;
+    margin-top: 100px;
+    padding-top: 50px;
+    text-align: center;
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.paper > h2{
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-shadow: 0px 1px 5px black;
+}
+
+div{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.btn{
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+
+@media screen and (max-width:500px) {
+    .paper{
+        width: 350px;
+        height: 400px;
+        margin-left: 0;
+    }
+}
